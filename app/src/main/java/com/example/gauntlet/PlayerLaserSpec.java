@@ -6,7 +6,7 @@ class PlayerLaserSpec extends ObjectSpec {
     // This is all the unique specifications
     // for a player laser
     private static final String tag = "Player Laser";
-    private static final String bitmapName = "player_laser";
+    private static final String bitmapName = "arrow";
     private static final float speed = .65f;
     private static final PointF relativeScale =
             new PointF(8f, 160f);
