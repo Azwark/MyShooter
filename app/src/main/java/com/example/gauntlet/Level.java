@@ -61,15 +61,15 @@ class Level {
         objects.add(FIRST_ALIEN, factory
                 .create(new AlienChaseSpec()));
         objects.add(SECOND_ALIEN, factory
-                .create(new AlienPatrolSpec()));
+                .create(new AlienChaseSpec()));
         objects.add(THIRD_ALIEN, factory
-                .create(new AlienPatrolSpec()));
+                .create(new AlienChaseSpec()));
         objects.add(FOURTH_ALIEN, factory
                 .create(new AlienChaseSpec()));
         objects.add(FIFTH_ALIEN, factory
-                .create(new AlienDiverSpec()));
+                .create(new AlienChaseSpec()));
         objects.add(SIXTH_ALIEN, factory
-                .create(new AlienDiverSpec()));
+                .create(new AlienChaseSpec()));
 
         // Create some alien lasers
         for (int i = FIRST_ALIEN_LASER; i != LAST_ALIEN_LASER + 1; i++) {

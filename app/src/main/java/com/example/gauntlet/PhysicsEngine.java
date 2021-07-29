@@ -24,7 +24,7 @@ class PhysicsEngine {
         if(ps.mIsRunning){
             ps.update(fps);
         }
-
+        gs.increaseScore();
         return detectCollisions(gs, objects, se, ps);
     }
 
@@ -70,7 +70,7 @@ class PhysicsEngine {
                                     break;
 
                                 case "Player Laser with Alien":
-                                    mGameState.increaseScore();
+
                                     // Respawn the alien
                                     ps.emitParticles(
                                             new PointF(

@@ -41,8 +41,8 @@ class AlienChaseMovementComponent implements MovementComponent {
         float speed = t.getSpeed();
 
         // Relative speed difference with player
-        float verticalSpeedDifference = .3f;
-        float slowDownRelativeToPlayer = 1.8f;
+        float verticalSpeedDifference = 1.1f;
+        float slowDownRelativeToPlayer = 1f;
         // Prevent the ship locking on too accurately
         float verticalSearchBounce = 20f;
 
