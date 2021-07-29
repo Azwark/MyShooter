@@ -57,7 +57,7 @@ class PlayerInputComponent implements InputComponent,
                     // Player has released the flip button
                     mTransform.flip();
                 } else if (buttons.get(HUD.SHOOT).contains(x,y)) {
-                    mPLS.spawnPlayerLaser(mTransform);
+                    //mPLS.spawnPlayerLaser(mTransform);
                 }
                 break;
 
@@ -82,7 +82,7 @@ class PlayerInputComponent implements InputComponent,
                     // Player has released the flip button
                     mTransform.flip();
                 } else if (buttons.get(HUD.SHOOT).contains(x, y)) {
-                    mPLS.spawnPlayerLaser(mTransform);
+                    //mPLS.spawnPlayerLaser(mTransform);
                 }
                 break;
         }

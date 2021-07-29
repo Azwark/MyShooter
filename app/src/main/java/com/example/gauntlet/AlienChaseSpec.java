@@ -7,7 +7,7 @@ class AlienChaseSpec extends ObjectSpec {
     // for an alien that chases the player
     private static final String tag = "Alien";
     private static final String bitmapName = "covid";
-    private static final float speed = 4f;
+    private static final float speed = 5f;
     private static final PointF relativeScale =
             new PointF(15f, 15f);
 
